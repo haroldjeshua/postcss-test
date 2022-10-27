@@ -1,0 +1,10 @@
+.card {
+    margin-top: 20px;
+    padding: 20px;
+    border: $borderWidth solid $borderColor;
+    width: 500px;
+
+    h2 {
+        color: blue;
+    }
+}
