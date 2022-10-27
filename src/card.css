@@ -2,7 +2,13 @@
     margin-top: 20px;
     padding: 20px;
     border: $borderWidth solid $borderColor;
-    width: 500px;
+    border-radius: $borderRadius;
+
+    background-image: resolve('harvbanner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: width('harvbanner.png');
+    height: height('harvbanner.png');
 
     h2 {
         color: blue;
